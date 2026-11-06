@@ -6,7 +6,7 @@ pipeline{
         stage('Checkout info'){
 
             steps(
-                sh 'git log --oneline -4'
+                sh 'git log --oneline'
             )
         }
 
