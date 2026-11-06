@@ -5,9 +5,9 @@ pipeline{
 
         stage('Checkout info'){
 
-            steps(
+            steps{
                 sh 'git log --oneline'
-            )
+            }
         }
 
     }
